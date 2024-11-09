@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* تنسيق للصورة والمعلومات الشخصية */
+        .info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .info img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #ddd;
+        }
+
+        .info-text {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في صفحتي الشخصية</h1>
+        <button onclick="navigateToPortfolio()">أعمالي</button>
+    </header>
+
+    <div class="info">
+        <img src="hhhhhh/di/H13.jpg" alt="الصورة الشخصية">
+        
+        <div class="info-text">
+            <h2>معلومات شخصية</h2>
+            <p><strong>الاسم:</strong> محمدحسن اسماعيل القحطاني</p>
+            <p><strong>مكان الميلاد:</strong> اب....يريم</p>
+            <p><strong>العمر:</strong>21سنه</p>
+            <p><strong>تاريخ الميلاد:</strong> 07_04_2003</p>
+            <p><strong>الدراسة:</strong> جرافيكس ووسايط متعدد</p>
+            <p><strong>الوظيفة:</strong> مصمم جرافيكس</p>
+            <p><strong>الجنسيه:</strong> يمني </p>
+            <p><strong>البريد الإلكتروني:</strong> mohammedhoassm45@gmil.com</p>
+        </div>
+    </div>
+
+    <script>
+        function navigateToPortfolio() {
+            window.location.href = "index2.html";
+        }
+    </script>
+</body>
+</html>
